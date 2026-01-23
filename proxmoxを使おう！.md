@@ -1,12 +1,22 @@
 # proxmoxを使おう！
 
+### -- 目次 --
+- [はじめに用意しておくもの](#はじめに用意しておくもの)
+- [手順の中で出てくるもの](#手順の中で出てくるもの)
+- [1 前準備～インストール](#1-前準備インストール)
+- [2 GUIコンソールログイン～Ubuntu導入](#2-guiコンソールログインubuntu導入)
+
 ### はじめに用意しておくもの
 - インターネット接続できてUSBかCDが使えるPC
 - 4GB以上のUSBかCD
 （proxmoxのインストールに使う。筆者は16GBのUSBにした）
 - いらないPC
 - 光回線（有線）
+
 ### 手順の中で出てくるもの
+リンク先はDLサイトだよ
+isoファイルはDLに時間かかるので、
+あらかじめDLしといた方が無駄がないかもー
 - [proxmox-ve_X.X-X.iso](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso)
 - [Rufus](https://rufus.ie/ja/#google_vignette)
 （インストールディスク作るのに使うソフト。インストール不要）
@@ -14,12 +24,9 @@
 - [spice-guest-tools-latest.exe](https://www.spice-space.org/download.html)
 （SPICE使うためのやつ）
 
-isoファイルはDLに時間かかるので、
-あらかじめDLしといた方が無駄がないかもー
-
 ---
 
-## 1 - 前準備～インストール
+## 1 前準備～インストール
 
  1. proxmox-ve_X.X-X.isoをサイトからDLする（最新版でいいよ）
  2. 1は時間かかるので、その間にRufusをDL
@@ -49,7 +56,7 @@ isoファイルはDLに時間かかるので、
 
 ---
 
-## 2 - GUIコンソールログイン～Ubuntu導入
+## 2 GUIコンソールログイン～Ubuntu導入
 以降、日本語化してある前提で書いていくよ。
 1. 接続はプライベートではありませんって出てくるけど進む。
 2. ユーザ名（root）と設定したパスワードを入力。4つ目のドロップダウンリストから日本語にもできるよ。
