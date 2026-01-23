@@ -1,2 +1,2 @@
 # proxmox-Ubuntu-setting
-How to Proxmox and Ubuntu(for beginner!)
+How to Proxmox and Ubuntu(for Japanese beginner!)
