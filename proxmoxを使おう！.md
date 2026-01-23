@@ -23,8 +23,6 @@ isoファイルはDLに時間かかるので、あらかじめDLしといた方�
 - [Rufus](https://rufus.ie/ja/#google_vignette)
 （インストールディスク作るのに使うソフト。インストール不要）
 - [ubuntu-XX.XX.X-desktop-amd64.iso](https://jp.ubuntu.com/download)
-- [spice-guest-tools-latest.exe](https://www.spice-space.org/download.html)
-（SPICE使うためのやつ）
 
 ---
 
