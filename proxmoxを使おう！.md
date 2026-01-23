@@ -5,6 +5,7 @@
 - [手順の中で出てくるもの](#手順の中で出てくるもの)
 - [1 前準備～インストール](#1-前準備インストール)
 - [2 GUIコンソールログイン～Ubuntu導入](#2-guiコンソールログインubuntu導入)
+- [3 SPICEを使おう](#3-spiceを使おう)
 
 ---
 
@@ -89,6 +90,20 @@ isoファイルはDLに時間かかるので、
     > サーバーとして使うなら最小インストールでいい。  
     > 設定はお好みで。
 14. 再起動したらログイン画面が出る。（完了！）
+
+---
+
+## 3 SPICEを使おう
+1. Ubuntuの「端末」でSPICEをDL
+	```cmd
+	sudo apt-get install spice-vdagent
+	```
+ 2. ゲスト側（webでproxmox見てる側）のコマンドプロンプトを使って	remote-viewerをDL
+	```cmd
+	winget install virt-viewre
+	```
+ 3. 「ハードウェア」の「ディスプレイ」をSPICEにする
+ 4. 右上の「コンソール」を押すとSPICE起動
 
 ---
 
