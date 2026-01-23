@@ -11,15 +11,14 @@
 
 ### はじめに用意しておくもの
 - インターネット接続できてUSBかCDが使えるPC
-- 4GB以上のUSBかCD
+- 4GB以上のUSBかCD  
 （proxmoxのインストールに使う。筆者は16GBのUSBにした）
 - いらないPC
 - 光回線（有線）
 
 ### 手順の中で出てくるもの
-リンク先はDLサイトだよ
-isoファイルはDLに時間かかるので、
-あらかじめDLしといた方が無駄がないかもー
+リンク先はDLサイトだよ。  
+isoファイルはDLに時間かかるので、あらかじめDLしといた方が無駄がないかもー
 - [proxmox-ve_X.X-X.iso](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso)
 - [Rufus](https://rufus.ie/ja/#google_vignette)
 （インストールディスク作るのに使うソフト。インストール不要）
