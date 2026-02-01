@@ -176,7 +176,7 @@ pveの中のlocalをクリックして、ISOイメージからubuntu-XX.XX.X-des
 	```cmd
 	pct set <CT ID> -net0 ""
 	```
-	-net0のところと""の中にはpct config~の結果を入れるよ。読み替えてね。
+	-net0のところと""の中にはpct config~の結果を入れるよ。読み替えてね。**firewall=0**にするのを忘れずに！  
 	終わったら再起動。pct reboot <CT ID>とかね。
 4. 新しいUbuntuテンプレートをDLしなおそう！
 	[ここ](#https://images.linuxcontainers.org/images/)からubuntu>一番下にあるやつ>amd64>default>一番新しい日付 って飛んで「rootfs.tar.xz」っていうやつのリンクをコピー、proxmoxのlocalストレージの「URLからダウンロード」、URLのところにペーストして「クエリURL」、ダウンロード。
